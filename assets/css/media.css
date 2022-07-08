@@ -1,0 +1,165 @@
+/* Mob */
+@media(max-width:768px) {
+    .container {
+        width: 100%;
+        padding: 0% !important;
+        text-align: center;
+    }
+
+    .banner {
+        background: url(../images/pexels-thisisengineering-3913025.jpg), no-repeat, center;
+        background-size: cover;
+        display: block;
+        height: 540px;
+    }
+
+    .banner>header {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner>header>nav {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .banner>header>nav>ul {
+        text-align: center;
+        display: flex !important;
+        flex-direction: column;
+        font-size: 17px
+    }
+
+    .banner>header>nav>ul>li {
+        display: inline-block;
+    }
+
+    .banner>div {
+        /* display: block; */
+        font-size: 20px !important;
+        height: 40px;
+        position: relative;
+        top: 200px;
+
+    }
+
+    .banner>div>h1 {
+        font-size: 25px;
+        /* margin-bottom: 20px; */
+        color: #fff;
+        text-align: center;
+
+    }
+
+    .word {
+        display: contents !important;
+        margin: auto;
+    }
+
+    .word>p {
+        text-align: center !important;
+        font-size: 15px;
+    }
+
+    [class*="col"] {
+        width: 100%;
+    }
+
+    .symtric,
+    .symtric-1 {
+        margin-left: 0% !important;
+    }
+
+    .col-8 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container>.col-12{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
+    .container>.col-12>.col-3>img {
+        width: 35px;
+        height: 35px;
+        border-radius: 30px;
+        background-color: #fff;
+    }
+
+    .container>.col-12>.col-3>h1 {
+        line-height: 30px;
+        font-size: 20px !important;
+        color: #fff;
+
+    }
+
+    .container>.col-12>.col-3>p {
+        font-size: 15px !important;
+        text-transform: uppercase;
+    }
+
+    #btn {
+        margin-top: 20px;
+        
+    }
+   
+}
+
+@media(min-width:769px) and (max-width:1200px){
+    .container {
+        width: 100%;
+        padding: 0% !important;
+        text-align: center;
+    }
+    .col-8{
+        width: 100%;
+        text-align: center;
+    }
+    .symtric-1 {
+       margin: 0%;
+    } 
+    .word {
+        display: block !important;
+        margin: auto;
+    }
+
+    .word>p {
+        text-align: center !important;
+        font-size: 15px;
+    }
+    .container>.col-12 {
+        text-align: centers;
+        display: block;
+    }
+    .container>.col-12>.col-6 {
+        display: contents;
+    }
+    .container>.col-12>.col-4>.overFlowAuto {
+        overflow: auto;
+        word-wrap: break-word;
+        
+    }
+    .container>.col-12>.col-4>h4 {
+        margin-top: 15px;
+        
+    }
+    .container>.col-12>.col-4>p {
+        margin-top: 10px;
+    }
+    
+    .service-icon>h5 {
+        font-size: 15px;
+        color: #000;
+        text-transform: uppercase;
+        float: left;
+    }
+    .service-icon>img {
+        margin-right: 5px;
+    }
+
+}
